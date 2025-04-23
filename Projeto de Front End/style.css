@@ -1,0 +1,49 @@
+/*
+--icterine(yellow): #fffd82ff;
+--yinmn-blue: #345995ff;
+--mint(green): #03cea4ff;
+--tomato(red): #fb4d3dff;
+--rose-red: #ca1551ff;
+*/
+
+body{
+    background-image: linear-gradient(to left bottom, #fb4d3dff, #03cea4ff);
+}
+
+h1 {
+    color: #fffd82ff;
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-stroke: 1.2px #000000;
+}
+
+h2{
+    color: #fffd82ff;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ca1551ff;
+}
+.logo {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+.main {
+    font-size: 30px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+div {
+    display: block;
+    background-image: linear-gradient(to bottom, #345995ff, #0a2249);
+    text-align: center;
+}
+button {
+    background-color: #fffd82ff;
+    size: 50px;
+    position: center;
+}
